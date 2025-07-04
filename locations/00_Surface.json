@@ -1,0 +1,190 @@
+[
+	{
+		"name": "J2",
+		"sections": [
+			{
+				"name": "Pistol",
+				"access_rules": [
+					"$reachedBackDoorOfSurface,bombs"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "surface",
+				"x": 2100,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "A3",
+		"sections": [
+			{
+				"name": "Feather"
+			}
+		],
+		"access_rules": [
+			"serpent_staff,gauntlet",
+			"serpent_staff,shuriken",
+			"serpent_staff,bomb",
+			"serpent_staff,pistol,ammunition",
+			"serpent_staff,chain_whip",
+			"serpent_staff,knife",
+			"serpent_staff,axe",
+			"serpent_staff,katana",
+			"serpent_staff,msx2,castlevania,mahjong_wizard"
+		],
+		"map_locations": [
+			{
+				"map": "surface",
+				"x": 300,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "I2",
+		"sections": [
+			{
+				"name": "Shell Horn"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "surface",
+				"x": 1900,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "L3",
+		"sections": [
+			{
+				"name": "Sacred Orb (Surface)",
+				"access_rules": [
+					"$swim|3"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "surface",
+				"x": 2500,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "L2",
+		"sections": [
+			{
+				"name": "Birth Seal",
+				"access_rules": [
+					"origin_seal,$swim|2",
+					"origin_seal,grail"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "surface",
+				"x": 2500,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "J1",
+		"sections": [
+			{
+				"name": "Konami Pinball",
+				"short_name": "Look at the sign. Now look elsewhere. Now look back at the sign. Your sign is now pinball.",
+				"access_rules": [
+					"scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "surface",
+				"x": 2100,
+				"y": 150
+			}
+		]
+	},
+	{
+		"name": "I3",
+		"sections": [
+			{
+				"name": "Metal Gear",
+				"access_rules": [
+					"feather"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "surface",
+				"x": 1900,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "K1",
+		"sections": [
+			{
+				"name": "Nemesis 3",
+				"access_rules": [
+					"pistol,ammunition"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "surface",
+				"x": 2300,
+				"y": 150
+			}
+		]
+	},
+	{
+		"name": "G4",
+		"sections": [
+			{
+				"name": "Mulana Talisman",
+				"access_rules": [
+					"diary"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "surface",
+				"x": 1500,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "K2",
+		"sections": [
+			{
+				"name": "PR3",
+				"access_rules": [
+					"feather,$swim|2",
+					"feather,grail"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "surface",
+				"x": 2300,
+				"y": 250
+			}
+		]
+	}
+]

@@ -1,0 +1,153 @@
+[
+	{
+		"name": "C2",
+		"sections": [
+			{
+				"name": "Keyblade",
+				"access_rules": [
+					"key_of_eternity"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "08",
+				"x": 700,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "A1",
+		"sections": [
+			{
+				"name": "Map",
+				"access_rules": [
+					""
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "08",
+				"x": 300,
+				"y": 150
+			}
+		]
+	},
+	{
+		"name": "A3",
+		"sections": [
+			{
+				"name": "Twin Statue",
+				"access_rules": [
+					"key_of_eternity,feather",
+					"key_of_eternity,grapple_claw",
+					"[option_glitch,grail]" // https://youtu.be/7_D0TQ7ZWk0?si=g1TK2_l7qHGtg2Dm&t=2368
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "08",
+				"x": 300,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "C1",
+		"sections": [
+			{
+				"name": "Shop",
+				"access_rules": [
+					"life_seal"
+				],
+				"item_count": 3
+			}
+		],
+		"map_locations": [
+			{
+				"map": "08",
+				"x": 700,
+				"y": 150
+			}
+		]
+	},
+	{
+		"name": "B1",
+		"sections": [
+			{
+				"name": "Video Hustler",
+				"access_rules": [
+					"scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "08",
+				"x": 500,
+				"y": 150
+			}
+		]
+	},
+	{
+		"name": "D2",
+		"sections": [
+			{
+				"name": "Konami Golf",
+				"access_rules": [
+					"key_of_eternity,scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "08",
+				"x": 900,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "D3",
+		"sections": [
+			{
+				"name": "Konami Boxing",
+				"access_rules": [
+					"key_of_eternity,feather",
+					"key_of_eternity,grapple_claw"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "08",
+				"x": 900,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "B4",
+		"sections": [
+			{
+				"name": "Yie Ar Kung Fu 2",
+				"access_rules": [
+					"key_of_eternity,feather,spears",
+					"key_of_eternity,grapple_claw,spears",
+					"key_of_eternity,feather,kunai",
+					"key_of_eternity,grapple_claw,kunai"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "08",
+				"x": 500,
+				"y": 450
+			}
+		]
+	}
+]

@@ -1,0 +1,196 @@
+[
+	{
+		"name": "D2",
+		"sections": [
+			{
+				"name": "Knife",
+				"access_rules": [
+					"shuriken",
+					"pistol,ammunition",
+					"bombs"
+				]
+			},
+			{
+				"name": "Shop",
+				"access_rules": [
+					"shuriken",
+					"pistol,ammunition",
+					"bombs",
+					"feather"
+				],
+				"item_count": 3
+			}
+		],
+		"map_locations": [
+			{
+				"map": "03",
+				"x": 900,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "B5",
+		"sections": [
+			{
+				"name": "Ankh Jewel",
+				"access_rules": [
+					""
+				]
+			},
+			{
+				"name": "Shop",
+				"access_rules": [
+					"death_seal,feather"
+				],
+				"item_count": 3
+			}
+		],
+		"map_locations": [
+			{
+				"map": "03",
+				"x": 500,
+				"y": 550
+			}
+		]
+	},
+	{
+		"name": "E6",
+		"sections": [{
+			"name": "Bronze Mirror"
+		}],
+		"access_rules": [
+			//"ankhJewel:templeOfTheSun,scanner,glyph_reader", // this looks like a bug in rando logic??? You need a bit more than that to beat Ellmac...
+			"$defeatedEllmac"
+		],
+		"map_locations": [
+			{
+				"map": "03",
+				"x": 1100,
+				"y": 650
+			}
+		]
+	},
+	{
+		"name": "C1",
+		"sections": [
+			{
+				"name": "Map",
+				"access_rules": [
+					""
+				]
+			},
+			{
+				"name": "Super Cobra",
+				"access_rules": ["scanner"]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "03",
+				"x": 700,
+				"y": 150
+			}
+		]
+	},
+	{
+		"name": "F3",
+		"sections": [{
+			"name": "Talisman",
+			"access_rules": [
+				"$defeatedViy"
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "03",
+				"x": 1300,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "G4",
+		"sections": [{
+			"name": "Boots",
+			"access_rules": [
+				"$floodedTempleOfTheSun",
+				"feather"
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "03",
+				"x": 1500,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "D4",
+		"sections": [{
+			"name": "Sacred Orb",
+			"short_name": "THOSE THAT FLY MUST BE STRUCK DOWN",
+			"access_rules": [
+				""
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "03",
+				"x": 900,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "E5",
+		"sections": [{
+			"name": "Shop",
+			"access_rules": [
+				""
+			],
+			"item_count": 3
+		}],
+		"map_locations": [
+			{
+				"map": "03",
+				"x": 1100,
+				"y": 550
+			}
+		]
+	},
+	{
+		"name": "C3",
+		"sections": [{
+			"name": "Yie Ar Kung Fu",
+			"access_rules": [
+				"scanner"
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "03",
+				"x": 700,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "E4",
+		"sections": [{
+			"name": "King's Valley",
+			"access_rules": [
+				"bombs, scanner"
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "03",
+				"x": 1100,
+				"y": 450
+			}
+		]
+	}
+
+]

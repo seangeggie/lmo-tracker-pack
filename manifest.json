@@ -1,0 +1,14 @@
+{
+	"name": "La-Mulana (Original)",
+	"game_name": "La-Mulana Original Randomizer",
+	"package_version": "0.1.0.0",
+	"package_uid": "la-mulana-original",
+	"author": "HeralayanSalty",
+	"variants": {
+		"standard": {
+			"display_name": "Map Tracker"
+		}
+	},
+	"versions_url": "",
+	"min_poptracker_version": "0.30.2"
+}

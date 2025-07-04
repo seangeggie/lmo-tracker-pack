@@ -1,0 +1,143 @@
+[
+	{
+		"name": "Dimensional Corridor",
+		"access_rules": [
+			"$reachedDimensionalCorridor"
+		],
+		"children": [
+			{
+				"name": "B3",
+				"sections": [
+					{
+						"name": "Angel Shield",
+						"access_rules": [
+							"$orbs|2"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "18",
+						"x": 500,
+						"y": 350
+					}
+				]
+			},
+			{
+				"name": "C7",
+				"sections": [
+					{
+						"name": "Ankh Jewel",
+						"access_rules": [
+							""
+						]
+					},
+					{
+						"name": "Map",
+						"access_rules": [
+							""
+						]
+					},
+				],
+				"map_locations": [
+					{
+						"map": "18",
+						"x": 700,
+						"y": 750
+					}
+				]
+			},
+			{
+				"name": "D3",
+				"sections": [
+					{
+						"name": "Magatama Jewel",
+						"access_rules": [
+							"$defeatedTiamat, mulana_talisman",
+							"[option_glitch], $defeatedTiamat, grapple_claw, bombs" // https://youtu.be/AtvFGL1-2x4
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "18",
+						"x": 900,
+						"y": 350
+					}
+				]
+			},
+			{
+				"name": "D1",
+				"sections": [
+					{
+						"name": "Sacred Orb",
+						"access_rules": [
+							"feather, lamp, $orbs|2"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "18",
+						"x": 900,
+						"y": 150
+					}
+				]
+			},
+			{
+				"name": "E7",
+				"sections": [
+					{
+						"name": "Gradius 2",
+						"access_rules": [
+							"scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "18",
+						"x": 1100,
+						"y": 750
+					}
+				]
+			},
+			{
+				"name": "B6",
+				"sections": [
+					{
+						"name": "King's Valley Disk",
+						"access_rules": [
+							"scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "18",
+						"x": 500,
+						"y": 650
+					}
+				]
+			},
+			{
+				"name": "A4",
+				"sections": [
+					{
+						"name": "Gradius 2 Beta",
+						"access_rules": [
+							"scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "18",
+						"x": 300,
+						"y": 450
+					}
+				]
+			}
+		]
+	}
+]

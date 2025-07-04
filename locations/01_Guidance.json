@@ -1,0 +1,193 @@
+[
+	{
+		"name": "F2",
+		"sections": [
+			{
+				"name": "Shuriken",
+				"access_rules": [
+					""
+				]
+			},
+			{
+				"name": "Konami Tennis",
+				"access_rules": ["scanner"]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "01",
+				"x": 1300,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "D4",
+		"sections": [
+			{
+				"name": "Game Collection EX",
+				"access_rules": ["scanner"]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "01",
+				"x": 900,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "D5",
+		"sections": [
+			{"name": "Ankh Jewel"}
+		],
+		"map_locations": [
+			{
+				"map": "01",
+				"x": 900,
+				"y": 550
+			}
+		]
+	},
+	{
+		"name": "C1",
+		"sections": [{
+			"name": "Treasure",
+			"access_rules": [
+				"pepper"
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "01",
+				"x": 700,
+				"y": 150
+			}
+		]
+	},
+	{
+		"name": "D1",
+		"sections": [
+			{"name": "Sacred Orb"},
+			{
+				"name": "Athletic Land",
+				"access_rules": ["scanner"]
+			}
+		],
+		"map_locations": [{"map": "01", "x": 900, "y": 150}]
+	},
+	{
+		"name": "E2",
+		"sections": [{
+			"name": "Cross",
+			"access_rules": [
+				"flares,birth_seal"
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "01",
+				"x": 1100,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "C3",
+		"sections": [{"name": "Map (Guidance)"}],
+		"map_locations": [
+			{
+				"map": "01",
+				"x": 700,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "A3",
+		"sections": [{
+			"name": "Game Master 2",
+			"access_rules": [
+				"$reachedGrailOfGateOfIllusion,$defeatedAmphisbaena,bronze_mirror"
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "01",
+				"x": 300,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "B4",
+		"sections": [{
+			"name": "Holy Grail"
+		}],
+		"map_locations": [
+			{
+				"map": "01",
+				"x": 500,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "B6",
+		"sections": [{
+			"name": "Shop",
+			"access_rules": [
+				"origin_seal"
+			],
+			"item_count": 3
+		}],
+		"map_locations": [
+			{
+				"map": "01",
+				"x": 500,
+				"y": 650
+			}
+		]
+	},
+	{
+		"name": "C5",
+		"sections": [
+			{"name": "Mahjong Dojo", "access_rules": ["scanner"]}
+		],
+		"map_locations": [
+			{
+				"map": "01",
+				"x": 700,
+				"y": 550
+			}
+		]
+	},
+	{
+		"name": "G2",
+		"sections": [
+			{"name": "Hyper Rally", "access_rules": ["scanner"]}
+		],
+		"map_locations": [
+			{
+				"map": "01",
+				"x": 1500,
+				"y": 250
+			}
+		]
+	}
+
+	// {
+	// 	"name": "",
+	// 	"access_rules": [
+	// 		""
+	// 	],
+	// 	"map_locations": [
+	// 		{
+	// 			"map": "default",
+	// 			"x": ,
+	// 			"y": 
+	// 		}
+	// 	]
+	// },
+]

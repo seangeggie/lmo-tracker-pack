@@ -1,0 +1,334 @@
+[
+	{
+		"name": "I2",
+		"sections": [
+			{
+				"name": "Katana",
+				"access_rules": [
+					"$releasedTwins,flares,knife",
+					"[$twinLabyrinthsGlitch,twin_statue,knife]"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 1900,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "B2",
+		"sections": [
+			{
+				"name": "Ring",
+				"access_rules": [
+					"$releasedTwins",
+					"[$twinLabyrinthsGlitch]"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 500,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "D2",
+		"sections": [
+			{
+				"name": "Map",
+				"access_rules": [
+					"$releasedTwins"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 900,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "C3",
+		"sections": [
+			{
+				"name": "Sacred Orb",
+				"access_rules": [
+					"$releasedTwins",
+					"[$twinLabyrinthsGlitch]"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 700,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "A4",
+		"sections": [
+			{
+				"name": "Shop",
+				"item_count": 3
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 300,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "D4",
+		"sections": [
+			{
+				"name": "Shop",
+				"access_rules": [
+					"$releasedTwins,feather,boots",
+					"[$twinLabyrinthsGlitch]"
+				],
+				"item_count": 3
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 900,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "B4",
+		"sections": [
+			{
+				"name": "Circus Charlie",
+				"access_rules": [
+					"$releasedTwins,scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 500,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "B1",
+		"sections": [
+			{
+				"name": "Comic Bakery",
+				"access_rules": [
+					"$releasedTwins,scanner",
+					"[$twinLabyrinthsGlitch],scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 500,
+				"y": 150
+			}
+		]
+	},
+	{
+		"name": "C5",
+		"sections": [
+			{
+				"name": "Penguin Adventure",
+				"access_rules": [
+					"$releasedTwins,flares,bombs,scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 700,
+				"y": 550
+			}
+		]
+	},
+	{
+		"name": "C2",
+		"sections": [
+			{
+				"name": "Game Collection 4",
+				"access_rules": [
+					"$releasedTwins,scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 700,
+				"y": 250
+			}
+		]
+	},
+
+	// from 17_Twin_Labyrinths_Right.yml:
+	{
+		"name": "G2",
+		"sections": [
+			{
+				"name": "Ankh Jewel",
+				"access_rules": [
+					"$releasedTwins"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 1500,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "G4",
+		"sections": [
+			{
+				"name": "Shop",
+				"access_rules": [
+					"$releasedTwins,feather"
+				],
+				"item_count": 3
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 1500,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "J4",
+		"sections": [
+			{
+				"name": "Shop",
+				"access_rules": [
+					"fake_scanner"
+				],
+				"item_count": 3
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 2100,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "H4",
+		"sections": [
+			{
+				"name": "Hyper Sports 2",
+				"access_rules": [
+					"$releasedTwins,scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 1700,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "G5",
+		"sections": [
+			{
+				"name": "Konami Ping-Pong",
+				"access_rules": [
+					"$releasedTwins,scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 1500,
+				"y": 550
+			}
+		]
+	},
+	{
+		"name": "I1",
+		"sections": [
+			{
+				"name": "Ganbare Goemon",
+				"access_rules": [
+					"$releasedTwins,feather,scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 1900,
+				"y": 150
+			}
+		]
+	},
+	{
+		"name": "H3",
+		"sections": [
+			{
+				"name": "Usas",
+				"access_rules": [
+					"$releasedTwins,flares,scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 1700,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "J3",
+		"sections": [
+			{
+				"name": "Pennant Race",
+				"access_rules": [
+					"scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "07",
+				"x": 2100,
+				"y": 350
+			}
+		]
+	}
+]

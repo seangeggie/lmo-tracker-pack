@@ -1,0 +1,132 @@
+[
+	{
+		"name": "A2",
+		"sections": [
+			{
+				"name": "Throwing Knives",
+				"access_rules": [
+					""
+				]
+			},
+			{
+				"name": "Hyper Olympic 2",
+				"access_rules": [
+					"scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "02",
+				"x": 300,
+				"y": 250
+			}
+		]
+	},
+  	{
+		"name": "G3",
+		"sections": [{
+			"name": "Ankh Jewel",
+			"access_rules": [
+				""
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "02",
+				"x": 1500,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "C2",
+		"sections": [{
+			"name": "Map",
+			"access_rules": [
+				""
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "02",
+				"x": 700,
+				"y": 250 
+			}
+		]
+	},
+	{
+		"name": "F4",
+		"sections": [{
+			"name": "Sacred Orb"
+		}],
+		"map_locations": [
+			{
+				"map": "02",
+				"x": 1300,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "F3",
+		"sections": [{
+			"name": "Shop",
+			"access_rules": [""],
+			"item_count": 3
+		}],
+		"map_locations": [
+			{
+				"map": "02",
+				"x": 1300,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "H4",
+		"sections": [{
+			"name": "Frogger",
+			"access_rules": ["scanner"]
+		}],
+		"map_locations": [
+			{
+				"map": "02",
+				"x": 1700,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "E6",
+		"sections": [{
+			"name": "Magical Tree",
+			"access_rules": [
+				"scanner"
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "02",
+				"x": 1100,
+				"y": 650
+			}
+		]
+	},
+	{
+		"name": "C1",
+		"sections": [{
+			"name": "Game Collection 3",
+			"access_rules": [
+				"scanner"
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "02",
+				"x": 700,
+				"y": 150
+			}
+		]
+	}
+]

@@ -1,0 +1,202 @@
+[
+	{
+		"name": "Gate of Illusion",
+		"children": [
+			{
+				"name": "C3",
+				"sections": [
+					{
+						"name": "Key of Eternity",
+						"access_rules": [
+							"$reachedElevatorOfGateOfIllusion, mini_doll, $escapeShu",
+							"[option_glitch], $reachedElevatorOfGateOfIllusion, spears, grail, $orbs|1, msx2, athletic_land, cabbage_patch_kids",
+							"[option_glitch], $reachedElevatorOfGateOfIllusion, spears, grail, $orbs|2"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "11",
+						"x": 700,
+						"y": 350
+					}
+				]
+			},
+			{
+				"name": "A4",
+				"sections": [
+					{
+						"name": "Body Armor",
+						"access_rules": [
+							"$reachedElevatorOfGateOfIllusion, katana, $keyFairyCombo"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "11",
+						"x": 300,
+						"y": 450
+					}
+				]
+			},
+			{
+				"name": "D5",
+				"sections": [
+					{
+						"name": "Map",
+						"access_rules": [
+							"$reachedFrontOfGateOfIllusion"
+						]
+					},
+					{
+						"name": "Salamander",
+						"access_rules": [
+							"$reachedFrontOfGateOfIllusion, scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "11",
+						"x": 900,
+						"y": 550
+					}
+				]
+			},
+			{
+				"name": "E1",
+				"sections": [
+					{
+						"name": "Flywheel",
+						"access_rules": [
+							"$reachedBackDoorOfGateOfIllusion, $reachedElevatorOfGateOfIllusion, $escapeShu, lamp_of_time"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "11",
+						"x": 1100,
+						"y": 150
+					}
+				]
+			},
+			{
+				"name": "A3",
+				"sections": [
+					{
+						"name": "Shop",
+						"access_rules": [
+							"$reachedElevatorOfGateOfIllusion"
+						],
+						"item_count": 3
+					}
+				],
+				"map_locations": [
+					{
+						"map": "11",
+						"x": 300,
+						"y": 350
+					}
+				]
+			},
+			{
+				"name": "C4",
+				"sections": [
+					{
+						"name": "Monkey Academy",
+						"access_rules": [
+							"$reachedElevatorOfGateOfIllusion, scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "11",
+						"x": 700,
+						"y": 450
+					}
+				]
+			},
+			{
+				"name": "D2",
+				"sections": [
+					{
+						"name": "Road Fighter",
+						"access_rules": [
+							"$reachedGrailOfGateOfIllusion, scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "11",
+						"x": 900,
+						"y": 250
+					}
+				]
+			},
+			{
+				"name": "E5",
+				"sections": [
+					{
+						"name": "Q-Bert",
+						"access_rules": [
+							"$reachedFrontOfGateOfIllusion, scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "11",
+						"x": 1100,
+						"y": 550
+					}
+				]
+			},
+			{
+				"name": "F5",
+				"sections": [
+					{
+						"name": "Mini Doll",
+						"access_rules": [
+							"$reachedFrontOfGateOfIllusion, $reachedGrailOfGateOfIllusion, scanner, glyph_reader, anchor"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "11",
+						"x": 1300,
+						"y": 550
+					}
+				]
+			},
+			{
+				"name": "F4 (Mr. Slushfund)",
+				"sections": [
+					{
+						"name": "Pepper",
+						"access_rules": [
+							"$reachedFrontOfGateOfIllusion"
+						]
+					},
+					{
+						"name": "Anchor",
+						"access_rules": [
+							"$reachedFrontOfGateOfIllusion, treasures"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "11",
+						"x": 1300,
+						"y": 450
+					}
+				]
+			}
+		]
+	}
+]

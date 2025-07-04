@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Whip",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": false,
+		"stages": [
+			{
+				"img": "images/weapons/Whip.png",
+				"codes": "whip",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/weapons/Chain_Whip.png",
+				"codes": "chain_whip",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/weapons/Mace.png",
+				"codes": "mace",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "Knife",
+		"type": "toggle",
+		"img": "images/weapons/Knife.png",
+		"codes": "knife"
+	},
+	{
+		"name": "Axe",
+		"type": "toggle",
+		"img": "images/weapons/Axe.png",
+		"codes": "axe"
+	},
+	{
+		"name": "Keyblade",
+		"type": "toggle",
+		"img": "images/weapons/Keyblade.png",
+		"codes": "keyblade"
+	},
+	{
+		"name": "Katana",
+		"type": "toggle",
+		"img": "images/weapons/Katana.png",
+		"codes": "katana"
+	}
+]

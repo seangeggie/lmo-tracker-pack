@@ -1,0 +1,188 @@
+[
+	{
+		"name": "C8",
+		"sections": [
+			{
+				"name": "Ankh Jewel",
+				"access_rules": [
+					"scalesphere"
+				]
+			},
+			{
+				"name": "Cabbage Patch Kids",
+				"access_rules": [
+					"scanner,scalesphere"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "04",
+				"x": 700,
+				"y": 850
+			}
+		]
+	},
+	{
+		"name": "A4",
+		"sections": [{
+			"name": "Sacred Orb",
+			"access_rules": [
+				"birth_seal"
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "04",
+				"x": 300,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "C5",
+		"sections": [{
+			"name": "Glove",
+			"access_rules": [
+				"$floodedSpringInTheSky"
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "04",
+				"x": 700,
+				"y": 550
+			}
+		]
+	},
+	{
+		"name": "B6",
+		"sections": [{
+			"name": "Map",
+			"access_rules": [
+				""
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "04",
+				"x": 500,
+				"y": 650
+			}
+		]
+	},
+	{
+		"name": "D1",
+		"sections": [{
+			"name": "Scalesphere",
+			"access_rules": [
+				"$springElevator,origin_seal"
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "04",
+				"x": 900,
+				"y": 150
+			}
+		]
+	},
+	{
+		"name": "E2",
+		"sections": [
+			{
+				"name": "Conception Seal"
+			},
+			{
+				"name": "Hyper Sports 1",
+				"access_rules": [
+					"scanner"
+				]
+			}
+		],
+		"access_rules": [
+			"$springElevator,helmet"
+		],
+		"map_locations": [
+			{
+				"map": "04",
+				"x": 1100,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "D4",
+		"sections": [
+			{
+				"name": "Shop 1",
+				"access_rules": [
+					"$springElevator,origin_seal"
+				],
+				"item_count": 3
+			},
+			{
+				"name": "Shop 2",
+				"access_rules": [
+					"$springElevator,origin_seal,$keyFairyCombo"
+				],
+				"item_count": 1 // only one item randomized in shop 2
+			}
+		],
+		"map_locations": [
+			{
+				"map": "04",
+				"x": 900,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "B8",
+		"sections": [{
+			"name": "Shalom",
+			"access_rules": [
+				"bombs,scalesphere,scanner"
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "04",
+				"x": 500,
+				"y": 850
+			}
+		]
+	},
+	{
+		"name": "B10",
+		"sections": [{
+			"name": "Quarth",
+			"access_rules": [
+				"scalesphere,scanner"
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "04",
+				"x": 500,
+				"y": 1050
+			}
+		]
+	},
+	{
+		"name": "A6",
+		"sections": [{
+			"name": "Game Collection 1",
+			"access_rules": [
+				"scanner"
+			]
+		}],
+		"map_locations": [
+			{
+				"map": "04",
+				"x": 300,
+				"y": 650
+			}
+		]
+	}
+]

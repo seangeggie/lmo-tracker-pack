@@ -1,0 +1,258 @@
+{
+	// "shared_item_grid": {
+	// 	"type": "array",
+	// 	"orientation": "horizontal",
+	// 	"margin": "0,0",
+	// 	"content": [
+
+	// 	]
+	// },
+	"tracker_default": {
+		"type": "container",
+		"background": "#000000",
+		"content": {
+			"type": "dock",
+			"dropshadow": true,
+			"content": [
+				{
+					"type": "dock",
+					"dock": "bottom",
+					"content": [
+						{
+							"type": "array",
+							"orientation": "horizontal",
+							"margin": "0,0",
+							"content": [
+								{
+									"type": "itemgrid",
+									// "key": "shared_item_grid",
+									"item_margin": "4,4",
+									"h_alignment": "stretch",
+									"item_size": 32,
+									"rows": [
+										["msx", "waterproof_case", "heatproof_case", "boots", "armor", "perfume", "lamp", "detector", "pochette_key", "woman_statue"],
+										["gauntlet", "scalesphere", "mini_doll", "key_of_eternity", "cross", "helmet", "magatama_jewel", "shell_horn", "flywheel", "ring"],
+										["grapple_claw", "grail", "ice_cape", "book_of_the_dead", "ocarina", "plane_model", "", "serpent_staff", "dragon_bone", "wedge"],
+										["scripture", "feather", "bracelet", "eye_of_truth", "twin_statue", "glove", "crystal_skull", "bronze_mirror", "", "container"],
+										["pepper", "treasure", "anchor", "", "fake_scanner", "", "talisman", "diary", "mulana_talisman"]
+									]
+								},
+								{
+									"type": "array",
+									"orientation": "vertical",
+									"margin": "0,0",
+									"content": [
+										{
+											"type": "array",
+											"orientation": "horizontal",
+											"item_v_alignment": "center",
+											"content": [
+												{
+													"type": "item",
+													"item": "orb",
+													"margin": "10,10"
+												},
+												{
+													"type": "itemgrid",
+													"item_margin": "2,2",
+													"item_size": 16,
+													"rows": [
+														["conception_seal", "life_seal"],
+														["birth_seal", "death_seal"]
+													]
+												}
+											]
+										},
+										{
+											"type": "itemgrid",
+											"item_margin": "4,4",
+											"h_alignment": "left",
+											"item_size": 32,
+											"rows": [
+												["whip", "knife", "keyblade", "axe", "katana"],
+												["", "", "", "", ""],
+												["shuriken", "kunai", "spears", "flares", "bombs"],
+												["pistol", "ammunition", "shield", "ankhjewel", "scanner"]
+											]
+										}
+									]
+								},
+								{
+									"type": "itemgrid",
+									// "key": "shared_item_grid",
+									"item_margin": "4,4",
+									"h_alignment": "center",
+									"item_size": 32,
+									"rows": [
+										["game_master", "game_master_2"],
+										["glyph_reader", "diviner_sensation"],
+										["antarctic_adventure", "comic_bakery"],
+										["mahjong_wizard", "castlevania", "qbert"]
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Surface",
+							"content": {
+								"type": "map",
+								"maps": [
+									"surface"
+								]
+							}
+						},
+						{
+							"title": "Guidance",
+							"content": {
+								"type": "map",
+								"maps": [
+									"01"
+								]
+							}
+						},
+						{
+							"title": "Mausoleum",
+							"content": {
+								"type": "map",
+								"maps": [
+									"02"
+								]
+							}
+						},
+						{
+							"title": "Sun",
+							"content": {
+								"type": "map",
+								"maps": [
+									"03"
+								]
+							}
+						},
+						{
+							"title": "Spring",
+							"content": {
+								"type": "map",
+								"maps": [
+									"04"
+								]
+							}
+						},
+						{
+							"title": "Inferno",
+							"content": {
+								"type": "map",
+								"maps": [
+									"05"
+								]
+							}
+						},
+						{
+							"title": "Extinction",
+							"content": {
+								"type": "map",
+								"maps": [
+									"06"
+								]
+							}
+						},
+						{
+							"title": "Twins",
+							"content": {
+								"type": "map",
+								"maps": [
+									"07"
+								]
+							}
+						},
+						{
+							"title": "Endless",
+							"content": {
+								"type": "map",
+								"maps": [
+									"08"
+								]
+							}
+						},
+						{
+							"title": "Shrine",
+							"content": {
+								"type": "map",
+								"maps": [
+									"09"
+								]
+							}
+						},
+						{
+							"title": "Confusion",
+							"content": {
+								"type": "map",
+								"maps": [
+									"11"
+								]
+							}
+						},
+						{
+							"title": "Graveyard",
+							"content": {
+								"type": "map",
+								"maps": [
+									"12"
+								]
+							}
+						},
+						{
+							"title": "Moonlight",
+							"content": {
+								"type": "map",
+								"maps": [
+									"13"
+								]
+							}
+						},
+						{
+							"title": "Goddess",
+							"content": {
+								"type": "map",
+								"maps": [
+									"14"
+								]
+							}
+						},
+						{
+							"title": "Ruin",
+							"content": {
+								"type": "map",
+								"maps": [
+									"15"
+								]
+							}
+						},
+						{
+							"title": "Birth",
+							"content": {
+								"type": "map",
+								"maps": [
+									"16"
+								]
+							}
+						},
+						{
+							"title": "Dimensional",
+							"content": {
+								"type": "map",
+								"maps": [
+									"18"
+								]
+							}
+						},
+					]
+				}
+			]
+		}
+	}
+}

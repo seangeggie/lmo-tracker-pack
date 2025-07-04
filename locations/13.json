@@ -1,0 +1,194 @@
+[
+	{
+		"name": "Temple of Moonlight",
+		"children": [
+			{
+				"name": "B3",
+				"sections": [
+					{
+						"name": "Axe",
+						"access_rules": [
+							"$reachedFrontOfTempleOfMoonlight, shuriken, knife, boots"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "13",
+						"x": 500,
+						"y": 350
+					}
+				]
+			},
+			{
+				"name": "D6",
+				"sections": [
+					{
+						"name": "Book of the Dead",
+						"access_rules": [
+							"$reachedFrontOfTempleOfMoonlight, $surviveAnubis, birth_seal, feather",
+							"$reachedFrontOfTempleOfMoonlight, $surviveAnubis, birth_seal, grapple_claw",
+							"$reachedFrontOfTempleOfMoonlight, $surviveAnubis, birth_seal, grail"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "13",
+						"x": 900,
+						"y": 650
+					}
+				]
+			},
+			{
+				"name": "A1",
+				"sections": [
+					{
+						"name": "Ice Cape",
+						"access_rules": [
+							"$reachedGrailOfTempleOfMoonlight"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "13",
+						"x": 300,
+						"y": 150
+					}
+				]
+			},
+			{
+				"name": "C2",
+				"sections": [
+					{
+						"name": "Map",
+						"access_rules": [
+							"$reachedGrailOfTempleOfMoonlight"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "13",
+						"x": 700,
+						"y": 250
+					}
+				]
+			},
+			{
+				"name": "D3",
+				"sections": [
+					{
+						"name": "Ocarina",
+						"access_rules": [
+							"$reachedFrontOfTempleOfMoonlight, $escapeFromTempleOfMoonlight, flares, woman_statue, feather",
+							"$reachedFrontOfTempleOfMoonlight, $escapeFromTempleOfMoonlight, flares, woman_statue, grapple_claw",
+							"[option_glitch], $escapeFromTempleOfMoonlight, flares", // https://youtu.be/7_D0TQ7ZWk0?si=ihOBzdfkrRGv06Pv&t=2302
+							"[option_glitch], $reachedFrontOfTempleOfMoonlight, shuriken, axe" // https://youtu.be/YVIJwPo2CQw
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "13",
+						"x": 900,
+						"y": 350
+					}
+				]
+			},
+			{
+				"name": "E3",
+				"sections": [
+					{
+						"name": "Serpent Staff",
+						"access_rules": [
+							"$reachedFrontOfTempleOfMoonlight, feather",
+							"$reachedFrontOfTempleOfMoonlight, grapple_claw"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "13",
+						"x": 1100,
+						"y": 350
+					}
+				]
+			},
+			{
+				"name": "F4",
+				"sections": [
+					{
+						"name": "Shop",
+						"access_rules": [
+							"$reachedFrontOfTempleOfMoonlight, $surviveAnubis, bombs"
+						],
+						"item_count": 3
+					}
+				],
+				"map_locations": [
+					{
+						"map": "13",
+						"x": 1300,
+						"y": 450
+					}
+				]
+			},
+			{
+				"name": "D5",
+				"sections": [
+					{
+						"name": "Twinbee",
+						"access_rules": [
+							"$reachedFrontOfTempleOfMoonlight, scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "13",
+						"x": 900,
+						"y": 550
+					}
+				]
+			},
+			{
+				"name": "D4",
+				"sections": [
+					{
+						"name": "Parodius",
+						"access_rules": [
+							"$escapeFromTempleOfMoonlight, flares, scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "13",
+						"x": 900,
+						"y": 450
+					}
+				]
+			},
+			{
+				"name": "B2",
+				"sections": [
+					{
+						"name": "Pennant Race 2",
+						"access_rules": [
+							"$reachedGrailOfTempleOfMoonlight, grail, scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "13",
+						"x": 500,
+						"y": 250
+					}
+				]
+			}
+		]
+	}
+]

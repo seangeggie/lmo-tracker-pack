@@ -1,0 +1,36 @@
+[
+	{
+		"name": "Sacred Orb",
+		"type": "consumable",
+		"img": "images/SacredOrb.png",
+		"max_quantity": 18,
+		"increment": 1,
+		"decrement": 1,
+		"initial_quantity": 0,
+		"codes": "orb"
+	},
+	{
+		"name": "Conception Seal",
+		"type": "toggle",
+		"img": "images/seals/ConceptionSeal.png",
+		"codes": "conception_seal,origin_seal"
+	},
+	{
+		"name": "Birth Seal",
+		"type": "toggle",
+		"img": "images/seals/BirthSeal.png",
+		"codes": "birth_seal"
+	},
+	{
+		"name": "Life Seal",
+		"type": "toggle",
+		"img": "images/seals/LifeSeal.png",
+		"codes": "life_seal"
+	},
+	{
+		"name": "Death Seal",
+		"type": "toggle",
+		"img": "images/seals/DeathSeal.png",
+		"codes": "death_seal"
+	}
+]

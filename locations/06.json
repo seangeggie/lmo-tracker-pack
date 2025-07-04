@@ -1,0 +1,136 @@
+[
+	{
+		"name": "C3",
+		"sections": [
+			{
+				"name": "Sacred Orb",
+				"access_rules": [
+					"$lightedUpChamberOfExtinction,feather",
+					"$lightedUpChamberOfExtinction,origin_seal",
+					"$lightedUpChamberOfExtinction,grail"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "06",
+				"x": 700,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "C4",
+		"sections": [
+			{
+				"name": "Map",
+				"access_rules": [
+					"$lightedUpChamberOfExtinction"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "06",
+				"x": 700,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "F4",
+		"sections": [
+			{
+				"name": "Life Seal",
+				"access_rules": [
+					"$lightedUpChamberOfExtinction,birth_seal,axe"
+				]
+			},
+			{
+				"name": "Hyper Olympic 1",
+				"access_rules": [
+					"$lightedUpChamberOfExtinction,scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "06",
+				"x": 1300,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "H2",
+		"sections": [
+			{
+				"name": "Shop",
+				"access_rules": [
+					"$reachedPalenque"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "06",
+				"x": 1700,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "B3",
+		"sections": [
+			{
+				"name": "Time Pilot",
+				"access_rules": [
+					"$lightedUpChamberOfExtinction,scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "06",
+				"x": 500,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "G5",
+		"sections": [
+			{
+				"name": "Maze of Galious",
+				"access_rules": [
+					"$lightedUpChamberOfExtinction,msx2,qbert,diviner_sensation,scanner" // might not actually need scanner?
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "06",
+				"x": 1500,
+				"y": 550
+			}
+		]
+	},
+	{
+		"name": "H5",
+		"sections": [
+			{
+				"name": "Metal Gear 2",
+				"access_rules": [
+					"$lightedUpChamberOfExtinction,scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "06",
+				"x": 1700,
+				"y": 550
+			}
+		]
+	}
+]

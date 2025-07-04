@@ -1,0 +1,172 @@
+[
+	{
+		"name": "Graveyard of the Giants",
+		"children": [
+			{
+				"name": "B2",
+				"sections": [
+					{
+						"name": "Silver Shield",
+						"access_rules": [
+							"$reachedLiarOfGraveyardOfTheGiants, katana"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "12",
+						"x": 500,
+						"y": 250
+					}
+				]
+			},
+			{
+				"name": "E3",
+				"sections": [
+					{
+						"name": "Bomb",
+						"access_rules": [
+							"$reachedBackDoorOfGraveyardOfTheGiants"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "12",
+						"x": 1100,
+						"y": 350
+					}
+				]
+			},
+			{
+				"name": "D2",
+				"sections": [
+					{
+						"name": "Contra",
+						"access_rules": [
+							"$reachedLiarOfGraveyardOfTheGiants",
+							"$reachedFrontOfTempleOfMoonlight, shuriken, katana, keyblade, knife"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "12",
+						"x": 900,
+						"y": 250
+					}
+				]
+			},
+			{
+				"name": "D3",
+				"sections": [
+					{
+						"name": "Map",
+						"access_rules": [
+							"$reachedFrontOfGraveyardOfTheGiants, feather",
+							"$reachedFrontOfGraveyardOfTheGiants, boots"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "12",
+						"x": 900,
+						"y": 350
+					}
+				]
+			},
+			{
+				"name": "D4",
+				"sections": [
+					{
+						"name": "Gauntlet",
+						"access_rules": [
+							"$reachedFrontOfGraveyardOfTheGiants, birth_seal, grapple_claw"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "12",
+						"x": 900,
+						"y": 450
+					}
+				]
+			},
+			{
+				"name": "A1",
+				"sections": [
+					{
+						"name": "Shop",
+						"access_rules": [
+							"$reachedLiarOfGraveyardOfTheGiants"
+						],
+						"item_count": 3
+					}
+				],
+				"map_locations": [
+					{
+						"map": "12",
+						"x": 300,
+						"y": 150
+					}
+				]
+			},
+			{
+				"name": "D5",
+				"sections": [
+					{
+						"name": "Sky Jaguar",
+						"access_rules": [
+							"$reachedFrontOfGraveyardOfTheGiants, scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "12",
+						"x": 900,
+						"y": 550
+					}
+				]
+			},
+			{
+				"name": "G4",
+				"sections": [
+					{
+						"name": "Mopi Ranger",
+						"access_rules": [
+							"$reachedBackDoorOfGraveyardOfTheGiants"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "12",
+						"x": 1500,
+						"y": 450
+					}
+				]
+			},
+			{
+				"name": "F4",
+				"sections": [
+					{
+						"name": "Space Manbow",
+						"access_rules": [
+							"$reachedBackDoorOfGraveyardOfTheGiants, bombs"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "12",
+						"x": 1300,
+						"y": 450
+					}
+				]
+			}
+		]
+	}
+]

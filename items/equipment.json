@@ -1,0 +1,289 @@
+[
+	{
+		"name": "MSX",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": false,
+		"codes": "msx",
+		"stages": [
+			{
+				"img": "images/equipment/MSX.png",
+				"codes": "msx1",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/equipment/MSX2.png",
+				"codes": "msx2",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Waterproof Case",
+		"type": "toggle",
+		"img": "images/equipment/Waterproofcase.png",
+		"codes": "waterproof_case"
+	},
+	{
+		"name": "Heatproof Case",
+		"type": "toggle",
+		"img": "images/equipment/Heatproofcase.png",
+		"codes": "heatproof_case"
+	},
+	{
+		"name": "Boots",
+		"type": "toggle",
+		"img": "images/equipment/Boots.png",
+		"codes": "boots"
+	},
+	{
+		"name": "Body Armor",
+		"type": "toggle",
+		"img": "images/equipment/Bodyarmor.png",
+		"codes": "armor"
+	},
+	{
+		"name": "Perfume",
+		"type": "toggle",
+		"img": "images/equipment/Perfume.png",
+		"codes": "perfume"
+	},
+	{
+		"name": "Lamp of Time",
+		"type": "toggle",
+		"img": "images/equipment/LampofTime.png",
+		"codes": "lamp"
+	},
+	{
+		"name": "Detector",
+		"type": "toggle",
+		"img": "images/equipment/Detector.png",
+		"codes": "detector"
+	},
+	{
+		"name": "Pochette Key",
+		"type": "toggle",
+		"img": "images/equipment/Pochettekey.png",
+		"codes": "pochette_key"
+	},
+	{
+		"name": "Woman Statue",
+		"type": "toggle",
+		"img": "images/equipment/Womanstatue.png",
+		"codes": "woman_statue"
+	},
+	// Line 2
+	{
+		"name": "Gauntlet",
+		"type": "toggle",
+		"img": "images/equipment/Gauntlet.png",
+		"codes": "gauntlet"
+	},
+	{
+		"name": "Scalesphere",
+		"type": "toggle",
+		"img": "images/equipment/Scalesphere.png",
+		"codes": "scalesphere"
+	},
+	{
+		"name": "Mini Doll",
+		"type": "toggle",
+		"img": "images/equipment/Minidoll.png",
+		"codes": "mini_doll"
+	},
+	{
+		"name": "Key of Eternity",
+		"type": "toggle",
+		"img": "images/equipment/Endlesskey.png",
+		"codes": "key_of_eternity"
+	},
+	{
+		"name": "Cross",
+		"type": "toggle",
+		"img": "images/equipment/Cross.png",
+		"codes": "cross"
+	},
+	{
+		"name": "Helmet",
+		"type": "toggle",
+		"img": "images/equipment/Helmet.png",
+		"codes": "helmet"
+	},
+	{
+		"name": "Magatama Jewel",
+		"type": "toggle",
+		"img": "images/equipment/Magatamajewel.png",
+		"codes": "magatama_jewel"
+	},
+	{
+		"name": "Shell Horn",
+		"type": "toggle",
+		"img": "images/equipment/Shellhorn.png",
+		"codes": "shell_horn"
+	},
+	{
+		"name": "Flywheel",
+		"type": "toggle",
+		"img": "images/equipment/Flywheel.png",
+		"codes": "flywheel"
+	},
+	{
+		"name": "Ring",
+		"type": "toggle",
+		"img": "images/equipment/Ring.png",
+		"codes": "ring"
+	},
+	// Line 3
+	{
+		"name": "Grapple Claw",
+		"type": "toggle",
+		"img": "images/equipment/Grappleclaw.png",
+		"codes": "grapple_claw"
+	},
+	{
+		"name": "Grail",
+		"type": "toggle",
+		"img": "images/equipment/Grail.png",
+		"codes": "grail"
+	},
+	{
+		"name": "Ice Cape",
+		"type": "toggle",
+		"img": "images/equipment/Icecape.png",
+		"codes": "ice_cape"
+	},
+	{
+		"name": "Book of the Dead",
+		"type": "toggle",
+		"img": "images/equipment/BookoftheDead.png",
+		"codes": "book_of_the_dead"
+	},
+	{
+		"name": "Ocarina",
+		"type": "toggle",
+		"img": "images/equipment/Ocarina.png",
+		"codes": "ocarina"
+	},
+	{
+		"name": "Plane Model",
+		"type": "toggle",
+		"img": "images/equipment/Planemodel.png",
+		"codes": "plane_model"
+	},
+	{
+		"name": "Pepper",
+		"type": "toggle",
+		"img": "images/equipment/Pepper.png",
+		"codes": "pepper"
+	},
+	{
+		"name": "Treasure",
+		"type": "toggle",
+		"img": "images/equipment/Treasure.png",
+		"codes": "treasure"
+	},
+	{
+		"name": "Anchor",
+		"type": "toggle",
+		"img": "images/equipment/Anchor.png",
+		"codes": "anchor"
+	},
+	{
+		"name": "Serpent Staff",
+		"type": "toggle",
+		"img": "images/equipment/Serpentstaff.png",
+		"codes": "serpent_staff"
+	},
+	{
+		"name": "Dragon Bone",
+		"type": "toggle",
+		"img": "images/equipment/Dragonbone.png",
+		"codes": "dragon_bone"
+	},
+	{
+		"name": "Wedge",
+		"type": "toggle",
+		"img": "images/equipment/Wedge.png",
+		"codes": "wedge"
+	},
+	// Line 4
+	{
+		"name": "Scripture",
+		"type": "toggle",
+		"img": "images/equipment/Scripture.png",
+		"codes": "scripture"
+	},
+	{
+		"name": "Feather",
+		"type": "toggle",
+		"img": "images/equipment/Feather.png",
+		"codes": "feather"
+	},
+	{
+		"name": "Bracelet",
+		"type": "toggle",
+		"img": "images/equipment/Bracelet.png",
+		"codes": "bracelet"
+	},
+	{
+		"name": "Eye of Truth",
+		"type": "toggle",
+		"img": "images/equipment/EyeofTruth.png",
+		"codes": "eye_of_truth"
+	},
+	{
+		"name": "Twin Statue",
+		"type": "toggle",
+		"img": "images/equipment/Twinstatue.png",
+		"codes": "twin_statue"
+	},
+	{
+		"name": "Glove",
+		"type": "toggle",
+		"img": "images/equipment/Glove.png",
+		"codes": "glove"
+	},
+	{
+		"name": "Crystal Skull",
+		"type": "toggle",
+		"img": "images/equipment/Crystalskull.png",
+		"codes": "crystal_skull"
+	},
+	{
+		"name": "Bronze Mirror",
+		"type": "toggle",
+		"img": "images/equipment/Bronzemirror.png",
+		"codes": "bronze_mirror"
+	},
+	{
+		"name": "Talisman",
+		"type": "toggle",
+		"img": "images/equipment/Talisman.png",
+		"codes": "talisman"
+	},
+	{
+		"name": "Diary",
+		"type": "toggle",
+		"img": "images/equipment/Diary.png",
+		"codes": "diary"
+	},
+	{
+		"name": "Mulana Talisman",
+		"type": "toggle",
+		"img": "images/equipment/Mulanatalisman.png",
+		"codes": "mulana_talisman"
+	},
+	{
+		"name": "Container",
+		"type": "toggle",
+		"img": "images/equipment/Container.png",
+		"codes": "container"
+	},
+	{
+		"name": "Fake Hand Scanner",
+		"type": "toggle",
+		"img": "images/subweapons/Hand_Scanner.png",
+		"codes": "fake_scanner"
+	}
+]

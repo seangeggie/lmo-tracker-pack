@@ -1,0 +1,190 @@
+[
+	{
+		"name": "Tower of Ruin",
+		"children": [
+			{
+				"name": "F4",
+				"sections": [
+					{
+						"name": "Ankh Jewel",
+						"access_rules": [
+							"$reachedFrontOfTowerOfRuin"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "15",
+						"x": 1300,
+						"y": 450
+					}
+				]
+			},
+			{
+				"name": "E5",
+				"sections": [
+					{
+						"name": "Spear",
+						"access_rules": [
+							"$reachedFrontOfTowerOfRuin"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "15",
+						"x": 1100,
+						"y": 550
+					}
+				]
+			},
+			{
+				"name": "E1",
+				"sections": [
+					{
+						"name": "Djed Pillar",
+						"access_rules": [
+							"$reachedBackDoorOfTowerOfRuin, mulana_talisman, ocarina"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "15",
+						"x": 1100,
+						"y": 150
+					}
+				]
+			},
+			{
+				"name": "B3",
+				"sections": [
+					{
+						"name": "Map",
+						"access_rules": [
+							"$reachedFrontOfTowerOfRuin"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "15",
+						"x": 500,
+						"y": 350
+					}
+				]
+			},
+			{
+				"name": "G5",
+				"sections": [
+					{
+						"name": "Sacred Orb",
+						"access_rules": [
+							"$reachedFrontOfTowerOfRuin"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "15",
+						"x": 1500,
+						"y": 550
+					}
+				]
+			},
+			{
+				"name": "C3",
+				"sections": [
+					{
+						"name": "Shop",
+						"access_rules": [
+							"$reachedFrontOfTowerOfRuin, katana, feather",
+							"$reachedFrontOfTowerOfRuin, katana, boots, grapple_claw"
+						],
+						"item_count": 3
+					}
+				],
+				"map_locations": [
+					{
+						"map": "15",
+						"x": 700,
+						"y": 350
+					}
+				]
+			},
+			{
+				"name": "E4",
+				"sections": [
+					{
+						"name": "Ruins RAM 16K",
+						"access_rules": [
+							// TODO: Being able to warp in from grail should be added out-of-logic.
+							"$reachedGrailOfGateOfIllusion, mini_doll, scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "15",
+						"x": 1100,
+						"y": 450
+					}
+				]
+			},
+			{
+				"name": "D5",
+				"sections": [
+					{
+						"name": "Hyper Sports 3",
+						"access_rules": [
+							"$reachedFrontOfTowerOfRuin, ice_cape, scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "15",
+						"x": 900,
+						"y": 550
+					}
+				]
+			},
+			{
+				"name": "D3",
+				"sections": [
+					{
+						"name": "Shin Synthesizer",
+						"access_rules": [
+							"$reachedFrontOfTowerOfRuin, spears, scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "15",
+						"x": 900,
+						"y": 350
+					}
+				]
+			},
+			{
+				"name": "E2",
+				"sections": [
+					{
+						"name": "Badlands",
+						"access_rules": [
+							"$reachedBackDoorOfTowerOfRuin, keyblade"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "15",
+						"x": 1100,
+						"y": 250
+					}
+				]
+			}
+		]
+	}
+]

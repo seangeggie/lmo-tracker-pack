@@ -1,0 +1,189 @@
+[
+	{
+		"name": "Chamber of Birth",
+		"children": [
+			{
+				"name": "F2",
+				"sections": [
+					{
+						"name": "Container",
+						"access_rules": [
+							"$reachedUpperOfChamberOfBirth, silver_shield"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "16",
+						"x": 1300,
+						"y": 250
+					}
+				]
+			},
+			{
+				"name": "G2",
+				"sections": [
+					{
+						"name": "Perfume",
+						"access_rules": [
+							"$reachedUpperOfChamberOfBirth, flywheel"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "16",
+						"x": 1500,
+						"y": 250
+					}
+				]
+			},
+			{
+				"name": "I4",
+				"sections": [
+					{
+						"name": "Woman Statue",
+						"access_rules": [
+							"$reachedUpperOfChamberOfBirth, feather",
+							"[option_glitch], $reachedUpperOfChamberOfBirth, grail"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "16",
+						"x": 1900,
+						"y": 450
+					}
+				]
+			},
+			{
+				"name": "D5",
+				"sections": [
+					{
+						"name": "Map",
+						"access_rules": [
+							"$reachedLowerOfChamberOfBirth"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "16",
+						"x": 900,
+						"y": 550
+					}
+				]
+			},
+			{
+				"name": "F5",
+				"sections": [
+					{
+						"name": "Pochette Key",
+						"access_rules": [
+							"$reachedLowerOfChamberOfBirth, bombs, flywheel"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "16",
+						"x": 1300,
+						"y": 550
+					}
+				]
+			},
+			{
+				"name": "C4",
+				"sections": [
+					{
+						"name": "Shop",
+						"access_rules": [
+							"$reachedLowerOfChamberOfBirth, flywheel"
+						],
+						"item_count": 3
+					}
+				],
+				"map_locations": [
+					{
+						"map": "16",
+						"x": 700,
+						"y": 450
+					}
+				]
+			},
+			{
+				"name": "H4",
+				"sections": [
+					{
+						"name": "GR3",
+						"access_rules": [
+							"$reachedUpperOfChamberOfBirth, scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "16",
+						"x": 1700,
+						"y": 450
+					}
+				]
+			},
+			{
+				"name": "E2",
+				"sections": [
+					{
+						"name": "Konami Soccer",
+						"access_rules": [
+							"$reachedUpperOfChamberOfBirth, scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "16",
+						"x": 1100,
+						"y": 250
+					}
+				]
+			},
+			{
+				"name": "A3",
+				"sections": [
+					{
+						"name": "King Kong 2",
+						"access_rules": [
+							"$reachedLowerOfChamberOfBirth, scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "16",
+						"x": 300,
+						"y": 350
+					}
+				]
+			},
+			{
+				"name": "Heaven and Earth",
+				"sections": [
+					{
+						"name": "E6",
+						"access_rules": [
+							"$reachedLowerOfChamberOfBirth, scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "16",
+						"x": 1100,
+						"y": 650
+					}
+				]
+			}
+		]
+	}
+]

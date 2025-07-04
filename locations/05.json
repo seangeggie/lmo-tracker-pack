@@ -1,0 +1,174 @@
+[
+	{
+		"name": "A3",
+		"sections": [
+			{
+				"name": "Chain Whip",
+				"access_rules": [
+					"birth_seal,grapple_claw"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "05",
+				"x": 300,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "C4",
+		"sections": [
+			{
+				"name": "Flare Gun",
+				"access_rules": [
+					"glove", // thank you progre <3
+					"[]"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "05",
+				"x": 700,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "E1",
+		"sections": [
+			{
+				"name": "Map",
+				"access_rules": [
+					""
+				]
+			},
+			{
+				"name": "Firebird",
+				"access_rules": [
+					"scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "05",
+				"x": 1100,
+				"y": 150
+			}
+		]
+	},
+	{
+		"name": "G5",
+		"sections": [
+			{
+				"name": "Grapple Claw",
+				"access_rules": [
+					"ice_cape",
+					"glove,$orbs|3",
+					"$orbs|5"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "05",
+				"x": 1500,
+				"y": 550
+			}
+		]
+	},
+	{
+		"name": "E4",
+		"sections": [
+			{
+				"name": "Shop",
+				"access_rules": [
+					""
+				],
+				"item_count": 3
+			}
+		],
+		"map_locations": [
+			{
+				"map": "05",
+				"x": 1100,
+				"y": 450
+			}
+		]
+	},
+	{
+		"name": "D3",
+		"sections": [
+			{
+				"name": "Antarctic Adventure",
+				"access_rules": [
+					"scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "05",
+				"x": 900,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "G2",
+		"sections": [
+			{
+				"name": "Hyper Olympic 3",
+				"access_rules": [
+					"scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "05",
+				"x": 1500,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "C1",
+		"sections": [
+			{
+				"name": "Goonies",
+				"access_rules": [
+					"$reachedBackDoorOfSurface,scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "05",
+				"x": 700,
+				"y": 150
+			}
+		]
+	},
+	{
+		"name": "F5",
+		"sections": [
+			{
+				"name": "Game Collection 2",
+				"access_rules": [
+					"scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "05",
+				"x": 1300,
+				"y": 550
+			}
+		]
+	}
+]

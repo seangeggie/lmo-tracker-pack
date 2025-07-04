@@ -1,0 +1,151 @@
+[
+	{
+		"name": "Tower of the Goddess",
+		"children": [
+			{
+				"name": "C4",
+				"sections": [
+					{
+						"name": "Mace",
+						"access_rules": [
+							"$reachedTowerOfTheGoddess"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "14",
+						"x": 700,
+						"y": 450
+					}
+				]
+			},
+			{
+				"name": "B7",
+				"sections": [
+					{
+						"name": "A1 Spirit",
+						"access_rules": [
+							"$reachedTowerOfTheGoddess, plane_model, pistol, ammunition"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "14",
+						"x": 500,
+						"y": 750
+					}
+				]
+			},
+			{
+				"name": "D2",
+				"sections": [
+					{
+						"name": "Plane Model",
+						"access_rules": [
+							"$reachedTowerOfTheGoddess, feather, grapple_claw, boots, scanner, glyph_reader"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "14",
+						"x": 900,
+						"y": 250
+					}
+				]
+			},
+			{
+				"name": "C8",
+				"sections": [
+					{
+						"name": "Map",
+						"access_rules": [
+							"$reachedTowerOfTheGoddess"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "14",
+						"x": 700,
+						"y": 850
+					}
+				]
+			},
+			{
+				"name": "D5",
+				"sections": [
+					{
+						"name": "Gradius",
+						"access_rules": [
+							"$reachedTowerOfTheGoddess"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "14",
+						"x": 900,
+						"y": 550
+					}
+				]
+			},
+			{
+				"name": "A5",
+				"sections": [
+					{
+						"name": "Eye of Truth",
+						"access_rules": [
+							"$reachedLowerOfChamberOfBirth, $reachedTowerOfTheGoddess"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "14",
+						"x": 300,
+						"y": 550
+					}
+				]
+			},
+			{
+				"name": "C1",
+				"sections": [
+					{
+						"name": "Unreleased ROM",
+						"access_rules": [
+							"$reachedBackDoorOfGateOfIllusion, $keyFairyCombo, scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "14",
+						"x": 700,
+						"y": 150
+					}
+				]
+			},
+			{
+				"name": "A4",
+				"sections": [
+					{
+						"name": "Pippols",
+						"access_rules": [
+							"$reachedLowerOfChamberOfBirth, lamp, scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "14",
+						"x": 300,
+						"y": 450
+					}
+				]
+			}
+		]
+	}
+]

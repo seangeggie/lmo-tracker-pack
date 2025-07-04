@@ -1,0 +1,89 @@
+[
+	{
+		"name": "Shuriken",
+		"type": "toggle",
+		"img": "images/subweapons/Shuriken.png",
+		"codes": "shuriken"
+	},
+	{
+		"name": "Throwing Knives",
+		"type": "toggle",
+		"img": "images/subweapons/Kunai.png",
+		"codes": "kunai"
+	},
+	{
+		"name": "Spears",
+		"type": "toggle",
+		"img": "images/subweapons/Spear.png",
+		"codes": "spears"
+	},
+	{
+		"name": "Flare Gun",
+		"type": "toggle",
+		"img": "images/subweapons/Flare.png",
+		"codes": "flares"
+	},
+	{
+		"name": "Bombs",
+		"type": "toggle",
+		"img": "images/subweapons/Bomb.png",
+		"codes": "bombs"
+	},
+	{
+		"name": "Pistol",
+		"type": "toggle",
+		"img": "images/subweapons/Pistol.png",
+		"codes": "pistol"
+	},
+	{
+		"name": "Ammunition",
+		"type": "toggle",
+		"img": "images/subweapons/Ammunition.png",
+		"codes": "ammunition"
+	},
+	{
+		"name": "Progressive Shield",
+		"type": "progressive",
+		"codes": "shield",
+		"allow_disabled": true,
+		"loop": false,
+		"stages": [
+			{
+				"img": "images/subweapons/Buckler.png",
+				"codes": "buckler",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/subweapons/Imitation_Shield.png",
+				"codes": "imitationshield",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/subweapons/Silver_Shield.png",
+				"codes": "silver_shield",
+				"inherit_codes": true
+			},
+			{
+				"img": "images/subweapons/Angel_Shield.png",
+				"codes": "angel_shield",
+				"inherit_codes": true
+			}
+		]
+	},
+	{
+		"name": "Ankh Jewel",
+		"type": "consumable",
+		"img": "images/subweapons/Ankhjewel.png",
+		"max_quantity": 8,
+		"increment": 1,
+		"decrement": 1,
+		"initial_quantity": 0,
+		"codes": "ankhjewel"
+	},
+	{
+		"name": "Hand Scanner",
+		"type": "toggle",
+		"img": "images/subweapons/Hand_Scanner.png",
+		"codes": "scanner"
+	}
+]

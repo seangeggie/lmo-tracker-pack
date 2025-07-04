@@ -1,0 +1,173 @@
+[
+	{
+		// can't be in the Front Shrine region, because it can be bypassed that requirement with a glitch
+		"name": "B2",
+		"sections": [
+			{
+				"name": "Crystal Skull",
+				"access_rules": [
+					"$reachedFrontOfShrineOfTheMother,mulana_talisman,life_seal",
+					"[option_glitch,$twinLabyrinthsGlitch],life_seal,twin_statue,knife,msx2,athletic_land,cabbage_patch_kids" // https://youtu.be/k4S4xUn8zFI
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "09",
+				"x": 500,
+				"y": 250
+			}
+		]
+	},
+	{
+		"name": "Front Shrine",
+		"access_rules": ["$reachedFrontOfShrineOfTheMother"],
+		"children": [
+			{
+				"name": "C2",
+				"sections": [
+					{
+						"name": "Sacred Orb",
+						"access_rules": [
+							"origin_seal,birth_seal,life_seal,death_seal"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "09",
+						"x": 700,
+						"y": 250
+					}
+				]
+			},
+			{
+				"name": "E2",
+				"sections": [
+					{
+						"name": "Diary",
+						"access_rules": [
+							"talisman,life_seal,lamp,feather"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "09",
+						"x": 1100,
+						"y": 250
+					}
+				]
+			},
+			{
+				"name": "D1",
+				"sections": [
+					{
+						"name": "Konami Baseball",
+						"access_rules": [
+							"scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "09",
+						"x": 900,
+						"y": 150
+					}
+				]
+			},
+			{
+				"name": "E4",
+				"sections": [
+					{
+						"name": "Break Shot",
+						"access_rules": [
+							"scanner"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "09",
+						"x": 1100,
+						"y": 450
+					}
+				]
+			},
+			{
+				"name": "D4",
+				"sections": [
+					{
+						"name": "Snatcher",
+						"access_rules": [
+							"scanner,grail" // hmm... wiki says this is in true shrine...
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "09",
+						"x": 900,
+						"y": 450
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "F3",
+		"sections": [
+			{
+				"name": "Map",
+				"access_rules": [
+					"$reachedMapSpotOfShrineOfTheMother"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "09",
+				"x": 1300,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "A3",
+		"sections": [
+			{
+				"name": "Death Seal",
+				"access_rules": [
+					"$reachedDeathSealSpot"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "09",
+				"x": 300,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "B6",
+		"sections": [
+			{
+				"name": "SD Snatcher",
+				"access_rules": [
+					"$reachedTrueShrineOfTheMother,feather,scanner",
+					"$reachedTrueShrineOfTheMother,grapple_claw,scanner"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "09",
+				"x": 500,
+				"y": 650
+			}
+		]
+	}
+]

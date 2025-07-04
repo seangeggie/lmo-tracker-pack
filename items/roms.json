@@ -1,0 +1,68 @@
+[
+	{
+		"name": "Game Master",
+		"type": "toggle",
+		"img": "images/roms/MSX_10Cart_Green.png",
+		"codes": "game_master"
+	},
+	{
+		"name": "Game Master 2",
+		"type": "toggle",
+		"img": "images/roms/MSX_10Cart_Blue.png",
+		"codes": "game_master_2"
+	},
+	{
+		"name": "Glyph Reader",
+		"type": "toggle",
+		"img": "images/roms/MSX_Trans.png",
+		"codes": "glyph_reader"
+	},
+	// {
+	// 	"name": "Ruins RAM 8K",
+	// 	"type": "toggle",
+	// 	"img": "images/roms/.png",
+	// 	"codes": "map_8k"
+	// },
+	// {
+	// 	"name": "Ruins RAM 16K",
+	// 	"type": "toggle",
+	// 	"img": "images/roms/.png",
+	// 	"codes": "map_16k"
+	// },
+	{
+		"name": "Diviner Sensation",
+		"type": "toggle",
+		"img": "images/roms/MSX_Cart_EX.png",
+		"codes": "diviner_sensation"
+	},
+	{
+		"name": "Antarctic Adventure",
+		"type": "toggle",
+		"img": "images/roms/MSX_Cart_Blue.png",
+		"codes": "antarctic_adventure"
+	},
+	{
+		"name": "Comic Bakery",
+		"type": "toggle",
+		"img": "images/roms/MSX_Cart_Blue.png",
+		"codes": "comic_bakery"
+	},
+	{
+		"name": "Mahjong Wizard",
+		"type": "toggle",
+		"img": "images/roms/MSX_Cart_Blue.png",
+		"codes": "mahjong_wizard"
+	},
+	{
+		"name": "Castlevania",
+		"type": "toggle",
+		"img": "images/roms/MSX_Cart_Orange.png",
+		"codes": "castlevania"
+	},
+	{
+		"name": "Q-bert",
+		"type": "toggle",
+		"img": "images/roms/MSX_Cart_Blue.png",
+		"codes": "qbert"
+	}
+]
