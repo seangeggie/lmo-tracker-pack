@@ -8,7 +8,7 @@
 					{
 						"name": "Axe",
 						"access_rules": [
-							"$reachedFrontOfTempleOfMoonlight, shuriken, knife, grapple_claw",
+							"$reachedFrontOfTempleOfMoonlight, shuriken, knife, feather, grapple_claw",
 							"$reachedFrontOfTempleOfMoonlight, shuriken, knife, boots"
 						]
 					}
